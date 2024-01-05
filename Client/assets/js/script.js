@@ -107,11 +107,17 @@ function productsCaselle(album){
     const row = `
     <a href="album.html?id=${album.id}">
       <div class="d-flex album-caselle align-items-center me-2 mb-2">
+      <div class="play-card">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg>
+      </div> 
         <img src="${album.cover_small}" alt="foto dell'album">
         <div class="title d-flex ms-3">${album.title}</div>
         </div>
     </a>`
     tableBody.innerHTML += row;
+    cardsAnimation();
   })
 }
 
