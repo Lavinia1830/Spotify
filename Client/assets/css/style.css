@@ -12053,6 +12053,7 @@ html body .main .main-head .main-head-right-btn a {
 }
 html body .main #saluto {
   color: #fff;
+  margin-bottom: 1em;
 }
 html body .main .album-container {
   width: 100%;
@@ -12092,7 +12093,7 @@ html body .main .playlists .mostra-wrapper {
 html body .main .playlists .mostra-wrapper .playlist-name {
   color: #fff;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 html body .main .playlists .mostra-wrapper .playlist-name:hover {
   text-decoration: underline;
@@ -12101,21 +12102,23 @@ html body .main .playlists .mostra-wrapper .show-all {
   color: #b3b3b3;
   display: flex;
   align-items: center;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 html body .main .playlists .mostra-wrapper .show-all:hover {
   text-decoration: underline;
 }
-html body .main .playlists .playlist-create-per-te {
+html body .main .playlists #playlist-create-per-te {
   height: 100%;
   overflow: hidden;
 }
-html body .main .playlists .playlist-create-per-te .card {
+html body .main .playlists #playlist-create-per-te .card {
   width: 174px;
   padding: 0;
   background-color: #181818;
   cursor: pointer;
 }
-html body .main .playlists .playlist-create-per-te .card .play-head-card {
+html body .main .playlists #playlist-create-per-te .card .play-head-card {
   width: 45px;
   height: 45px;
   display: flex;
@@ -12128,20 +12131,20 @@ html body .main .playlists .playlist-create-per-te .card .play-head-card {
   top: calc(50% - 23px);
   opacity: 0;
 }
-html body .main .playlists .playlist-create-per-te .card .card-text a {
+html body .main .playlists #playlist-create-per-te .card .card-text a {
   font-size: 12px;
 }
-html body .main .playlists .playlist-ascoltate-di-recente {
+html body .main .playlists #playlist-i-tuoi-mix-preferiti {
   height: 100%;
   overflow: hidden;
 }
-html body .main .playlists .playlist-ascoltate-di-recente .card {
+html body .main .playlists #playlist-i-tuoi-mix-preferiti .card {
   width: 174px;
   padding: 0;
   background-color: #181818;
   cursor: pointer;
 }
-html body .main .playlists .playlist-ascoltate-di-recente .card .play-head-card {
+html body .main .playlists #playlist-i-tuoi-mix-preferiti .card .play-head-card {
   width: 45px;
   height: 45px;
   display: flex;
@@ -12154,20 +12157,20 @@ html body .main .playlists .playlist-ascoltate-di-recente .card .play-head-card 
   top: calc(50% - 23px);
   opacity: 0;
 }
-html body .main .playlists .playlist-ascoltate-di-recente .card .card-text a {
+html body .main .playlists #playlist-i-tuoi-mix-preferiti .card .card-text a {
   font-size: 12px;
 }
-html body .main .playlists .playlist-stazioni-per-te {
+html body .main .playlists #playlist-ascoltate-di-recente {
   height: 100%;
   overflow: hidden;
 }
-html body .main .playlists .playlist-stazioni-per-te .card {
+html body .main .playlists #playlist-ascoltate-di-recente .card {
   width: 174px;
   padding: 0;
   background-color: #181818;
   cursor: pointer;
 }
-html body .main .playlists .playlist-stazioni-per-te .card .play-head-card {
+html body .main .playlists #playlist-ascoltate-di-recente .card .play-head-card {
   width: 45px;
   height: 45px;
   display: flex;
@@ -12180,12 +12183,272 @@ html body .main .playlists .playlist-stazioni-per-te .card .play-head-card {
   top: calc(50% - 23px);
   opacity: 0;
 }
-html body .main .playlists .playlist-stazioni-per-te .card .card-text a {
+html body .main .playlists #playlist-ascoltate-di-recente .card .card-text a {
+  font-size: 12px;
+}
+html body .main .playlists #playlist-in-base-ascoltato-di-recente {
+  height: 100%;
+  overflow: hidden;
+}
+html body .main .playlists #playlist-in-base-ascoltato-di-recente .card {
+  width: 174px;
+  padding: 0;
+  background-color: #181818;
+  cursor: pointer;
+}
+html body .main .playlists #playlist-in-base-ascoltato-di-recente .card .play-head-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
+html body .main .playlists #playlist-in-base-ascoltato-di-recente .card .card-text a {
+  font-size: 12px;
+}
+html body .main .playlists #playlist-episodi-per-te {
+  height: 100%;
+  overflow: hidden;
+}
+html body .main .playlists #playlist-episodi-per-te .card {
+  width: 174px;
+  padding: 0;
+  background-color: #181818;
+  cursor: pointer;
+}
+html body .main .playlists #playlist-episodi-per-te .card .play-head-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
+html body .main .playlists #playlist-episodi-per-te .card .card-text a {
+  font-size: 12px;
+}
+html body .main .playlists #playlist-tutte-da-scoprire {
+  height: 100%;
+  overflow: hidden;
+}
+html body .main .playlists #playlist-tutte-da-scoprire .card {
+  width: 174px;
+  padding: 0;
+  background-color: #181818;
+  cursor: pointer;
+}
+html body .main .playlists #playlist-tutte-da-scoprire .card .play-head-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
+html body .main .playlists #playlist-tutte-da-scoprire .card .card-text a {
+  font-size: 12px;
+}
+html body .main .playlists #playlist-il-meglio-degli-artisti {
+  height: 100%;
+  overflow: hidden;
+}
+html body .main .playlists #playlist-il-meglio-degli-artisti .card {
+  width: 174px;
+  padding: 0;
+  background-color: #181818;
+  cursor: pointer;
+}
+html body .main .playlists #playlist-il-meglio-degli-artisti .card .play-head-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
+html body .main .playlists #playlist-il-meglio-degli-artisti .card .card-text a {
+  font-size: 12px;
+}
+html body .main .playlists #playlist-stazioni-consigliate {
+  height: 100%;
+  overflow: hidden;
+}
+html body .main .playlists #playlist-stazioni-consigliate .card {
+  width: 174px;
+  padding: 0;
+  background-color: #181818;
+  cursor: pointer;
+}
+html body .main .playlists #playlist-stazioni-consigliate .card .play-head-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
+html body .main .playlists #playlist-stazioni-consigliate .card .card-text a {
+  font-size: 12px;
+}
+html body .main .playlists #playlist-stazioni-radio-popolari {
+  height: 100%;
+  overflow: hidden;
+}
+html body .main .playlists #playlist-stazioni-radio-popolari .card {
+  width: 174px;
+  padding: 0;
+  background-color: #181818;
+  cursor: pointer;
+}
+html body .main .playlists #playlist-stazioni-radio-popolari .card .play-head-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
+html body .main .playlists #playlist-stazioni-radio-popolari .card .card-text a {
+  font-size: 12px;
+}
+html body .main .playlists #playlist-altri-come-anni-80 {
+  height: 100%;
+  overflow: hidden;
+}
+html body .main .playlists #playlist-altri-come-anni-80 .card {
+  width: 174px;
+  padding: 0;
+  background-color: #181818;
+  cursor: pointer;
+}
+html body .main .playlists #playlist-altri-come-anni-80 .card .play-head-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
+html body .main .playlists #playlist-altri-come-anni-80 .card .card-text a {
+  font-size: 12px;
+}
+html body .main .playlists #playlist-mood {
+  height: 100%;
+  overflow: hidden;
+}
+html body .main .playlists #playlist-mood .card {
+  width: 174px;
+  padding: 0;
+  background-color: #181818;
+  cursor: pointer;
+}
+html body .main .playlists #playlist-mood .card .play-head-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
+html body .main .playlists #playlist-mood .card .card-text a {
+  font-size: 12px;
+}
+html body .main .playlists #playlist-allenamento {
+  height: 100%;
+  overflow: hidden;
+}
+html body .main .playlists #playlist-allenamento .card {
+  width: 174px;
+  padding: 0;
+  background-color: #181818;
+  cursor: pointer;
+}
+html body .main .playlists #playlist-allenamento .card .play-head-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
+html body .main .playlists #playlist-allenamento .card .card-text a {
+  font-size: 12px;
+}
+html body .main .playlists #playlist-i-grandi-successi-di-oggi {
+  height: 100%;
+  overflow: hidden;
+}
+html body .main .playlists #playlist-i-grandi-successi-di-oggi .card {
+  width: 174px;
+  padding: 0;
+  background-color: #181818;
+  cursor: pointer;
+}
+html body .main .playlists #playlist-i-grandi-successi-di-oggi .card .play-head-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
+html body .main .playlists #playlist-i-grandi-successi-di-oggi .card .card-text a {
   font-size: 12px;
 }
 html body .main::-webkit-scrollbar {
   width: 10px;
 }
-html body .main::-webkit-scrollbar-thumb:hover {
+html body .main::-webkit-scrollbar-thumb {
   background: #b3b3b3;
 }/*# sourceMappingURL=style.css.map */

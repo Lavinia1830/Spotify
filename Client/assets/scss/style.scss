@@ -203,6 +203,7 @@ html{
             }
             #saluto{
                 color: #fff;
+                margin-bottom: 1em;
             }
             .album-container{
                 width: 100%;
@@ -241,7 +242,7 @@ html{
                     .playlist-name{
                         color: #fff;
                         font-weight: bold;
-                        font-size: 1.5em;
+                        font-size: 1.3em;
                         &:hover{
                             text-decoration:underline;
                         }
@@ -250,12 +251,14 @@ html{
                         color: #b3b3b3;
                         display: flex;
                         align-items: center;
+                        font-size: 0.8em;
+                        font-weight: bold;
                         &:hover{
                             text-decoration:underline;
                         }
                     }
                 }
-                .playlist-create-per-te{
+                #playlist-create-per-te{
                     height: 100%;
                     overflow: hidden;
                     .card{
@@ -283,7 +286,7 @@ html{
                         }
                     }
                 }
-                .playlist-ascoltate-di-recente{
+                #playlist-i-tuoi-mix-preferiti{
                     height: 100%;
                     overflow: hidden;
                     .card{
@@ -311,7 +314,287 @@ html{
                         }
                     }
                 }
-                .playlist-stazioni-per-te{
+                #playlist-ascoltate-di-recente{
+                    height: 100%;
+                    overflow: hidden;
+                    .card{
+                        width: 174px;
+                        padding: 0;
+                        background-color: #181818;
+                        cursor: pointer;
+                        .play-head-card{
+                            width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                #playlist-in-base-ascoltato-di-recente{
+                    height: 100%;
+                    overflow: hidden;
+                    .card{
+                        width: 174px;
+                        padding: 0;
+                        background-color: #181818;
+                        cursor: pointer;
+                        .play-head-card{
+                            width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                #playlist-episodi-per-te{
+                    height: 100%;
+                    overflow: hidden;
+                    .card{
+                        width: 174px;
+                        padding: 0;
+                        background-color: #181818;
+                        cursor: pointer;
+                        .play-head-card{
+                            width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                #playlist-tutte-da-scoprire{
+                    height: 100%;
+                    overflow: hidden;
+                    .card{
+                        width: 174px;
+                        padding: 0;
+                        background-color: #181818;
+                        cursor: pointer;
+                        .play-head-card{
+                            width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                #playlist-il-meglio-degli-artisti{
+                    height: 100%;
+                    overflow: hidden;
+                    .card{
+                        width: 174px;
+                        padding: 0;
+                        background-color: #181818;
+                        cursor: pointer;
+                        .play-head-card{
+                            width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                #playlist-stazioni-consigliate{
+                    height: 100%;
+                    overflow: hidden;
+                    .card{
+                        width: 174px;
+                        padding: 0;
+                        background-color: #181818;
+                        cursor: pointer;
+                        .play-head-card{
+                            width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                #playlist-stazioni-radio-popolari{
+                    height: 100%;
+                    overflow: hidden;
+                    .card{
+                        width: 174px;
+                        padding: 0;
+                        background-color: #181818;
+                        cursor: pointer;
+                        .play-head-card{
+                            width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                #playlist-altri-come-anni-80{
+                    height: 100%;
+                    overflow: hidden;
+                    .card{
+                        width: 174px;
+                        padding: 0;
+                        background-color: #181818;
+                        cursor: pointer;
+                        .play-head-card{
+                            width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                #playlist-mood{
+                    height: 100%;
+                    overflow: hidden;
+                    .card{
+                        width: 174px;
+                        padding: 0;
+                        background-color: #181818;
+                        cursor: pointer;
+                        .play-head-card{
+                            width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                #playlist-allenamento{
+                    height: 100%;
+                    overflow: hidden;
+                    .card{
+                        width: 174px;
+                        padding: 0;
+                        background-color: #181818;
+                        cursor: pointer;
+                        .play-head-card{
+                            width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                #playlist-i-grandi-successi-di-oggi{
                     height: 100%;
                     overflow: hidden;
                     .card{
@@ -344,7 +627,7 @@ html{
         .main::-webkit-scrollbar{
             width: 10px;
         }
-        .main::-webkit-scrollbar-thumb:hover {
+        .main::-webkit-scrollbar-thumb {
             background: #b3b3b3;
         }
         
