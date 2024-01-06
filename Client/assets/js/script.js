@@ -1,5 +1,5 @@
 let xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://striveschool-api.herokuapp.com/api/deezer/album/99999392');
+xhr.open('GET', 'https://striveschool-api.herokuapp.com/api/deezer/album/99999362');
 xhr.send();
 
 xhr.onreadystatechange = function(){
@@ -121,7 +121,7 @@ function productsCaselle(album){
   })
 }
 
-const getPlaylist = () => {
+const getPlaylistcreatePerte = () => {
   fetch(url + 'album', {
     method : "GET"
   })
@@ -129,29 +129,28 @@ const getPlaylist = () => {
   .then(json => {
     let shuffletAlbum = json.sort(() => Math.random() - 0.5);
     let selectAlbums = shuffletAlbum.slice(0, 5);
-    productsPlaylist(selectAlbums);
+    PlaylistcreatePerte(selectAlbums);
   })
   .catch(err => console.log(err));
 }
-getPlaylist();
+getPlaylistcreatePerte();
 
-function productsPlaylist(album){
-  let cardsContainer = document.querySelector(".playlist-cards-container");
+function PlaylistcreatePerte(album){
+  let cardsContainer = document.querySelector(".playlist-create-per-te");
   cardsContainer.classList.add("mt-1");
   let cardContainer = document.createElement("div");
   cardContainer.classList.add("col-6", "col-md-4", "col-lg-3", "col-xl-2");
   cardsContainer.innerHTML = '';
   album.forEach(album => {
-    const row = `
-    <div class="card rounded-4 m-0">
-      <div class="play-head-card">
-        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-        </svg>
-      </div> 
-      <div>
+    const col = `
+      <div class="card rounded-4 mx-2">
+        <div class="play-head-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg>
+        </div>
         <a href="album.html?id=${album.id}">
-          <div class="rounded-4 overflow-hidden p-4">
+          <div class="rounded-4 overflow-hidden p-3">
             <img src="${album.cover}" class="card-img-top img-fluid rounded-4" alt="${album.title}">
           </div>
           <div class="card-body">            
@@ -163,10 +162,102 @@ function productsPlaylist(album){
             <p>  
           </div>
         </a>
-      </div>
-      
-    </div>`
-    cardsContainer.innerHTML += row;
+      </div>`
+    cardsContainer.innerHTML += col;
+    cardsAnimation();
+  })
+}
+
+const getPlaylistAscoltatedirecente = () => {
+  fetch(url + 'album', {
+    method : "GET"
+  })
+  .then(response => response.json())
+  .then(json => {
+    let shuffletAlbum = json.sort(() => Math.random() - 0.5);
+    let selectAlbums = shuffletAlbum.slice(0, 5);
+    PlaylistAscoltatedirecente(selectAlbums);
+  })
+  .catch(err => console.log(err));
+}
+getPlaylistAscoltatedirecente();
+
+function PlaylistAscoltatedirecente(album){
+  let cardsContainer = document.querySelector(".playlist-ascoltate-di-recente");
+  cardsContainer.classList.add("mt-1");
+  let cardContainer = document.createElement("div");
+  cardContainer.classList.add("col-6", "col-md-4", "col-lg-3", "col-xl-2");
+  cardsContainer.innerHTML = '';
+  album.forEach(album => {
+    const col = `
+      <div class="card rounded-4 mx-2">
+        <div class="play-head-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg>
+        </div>
+        <a href="album.html?id=${album.id}">
+          <div class="rounded-4 overflow-hidden p-3">
+            <img src="${album.cover}" class="card-img-top img-fluid rounded-4" alt="${album.title}">
+          </div>
+          <div class="card-body">            
+            <h5 class="card-title text-white d-flex fs-6 fw-bold">${album.title}</h5>
+            <p class="card-text fw-bold">
+              <a href="artist.html?id=${album.artist.id}">
+                ${album.artist.name}
+              </a>
+            <p>  
+          </div>
+        </a>
+      </div>`
+    cardsContainer.innerHTML += col;
+    cardsAnimation();
+  })
+}
+
+const getPlaylistStazioniperte = () => {
+  fetch(url + 'album', {
+    method : "GET"
+  })
+  .then(response => response.json())
+  .then(json => {
+    let shuffletAlbum = json.sort(() => Math.random() - 0.5);
+    let selectAlbums = shuffletAlbum.slice(0, 5);
+    PlaylistStazioniperte(selectAlbums);
+  })
+  .catch(err => console.log(err));
+}
+getPlaylistStazioniperte();
+
+function PlaylistStazioniperte(album){
+  let cardsContainer = document.querySelector(".playlist-stazioni-per-te");
+  cardsContainer.classList.add("mt-1");
+  let cardContainer = document.createElement("div");
+  cardContainer.classList.add("col-6", "col-md-4", "col-lg-3", "col-xl-2");
+  cardsContainer.innerHTML = '';
+  album.forEach(album => {
+    const col = `
+      <div class="card rounded-4 mx-2">
+        <div class="play-head-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg>
+        </div>
+        <a href="album.html?id=${album.id}">
+          <div class="rounded-4 overflow-hidden p-3">
+            <img src="${album.cover}" class="card-img-top img-fluid rounded-4" alt="${album.title}">
+          </div>
+          <div class="card-body">            
+            <h5 class="card-title text-white d-flex fs-6 fw-bold">${album.title}</h5>
+            <p class="card-text fw-bold">
+              <a href="artist.html?id=${album.artist.id}">
+                ${album.artist.name}
+              </a>
+            <p>  
+          </div>
+        </a>
+      </div>`
+    cardsContainer.innerHTML += col;
     cardsAnimation();
   })
 }

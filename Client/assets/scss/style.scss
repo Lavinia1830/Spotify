@@ -14,9 +14,8 @@ html{
     height: 100%;
     body{
         height: 100%;
-        font-size: 12px;
         .sidebar-sx{
-            width: 500px;
+            width: 600px;
             height: 100%;
             .siderbar-content{
                 width: calc(100% - 3px);
@@ -71,7 +70,7 @@ html{
                     }
                     .tabella{
                         color: #fff;
-                        height: 450px;
+                        height: 440px;
                         overflow-y: auto;
                         overflow-x: hidden;
                         .libreria-bottoni-sx{
@@ -86,7 +85,7 @@ html{
                         }
                         .album-table-left{
                             .album{
-                                width: 350px;
+                                width: 390px;
                                 padding: 10px;
                                 border-radius: 10px;
                                 .song-info{
@@ -105,7 +104,6 @@ html{
                                 &:hover{
                                     background-color: rgba(53, 53, 53, 0.2);
                                     cursor: pointer;
-                                    width: 100%;
                                 }
                             }
                             
@@ -216,6 +214,19 @@ html{
                     background-color: #2a2a2a;
                     border-radius: 5px;
                     overflow: hidden;
+                    .play-card{
+                        width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                    }
                     .title{
                         color: #fff;
                         font-weight: bold;
@@ -244,11 +255,12 @@ html{
                         }
                     }
                 }
-                .playlist-cards-container{
+                .playlist-create-per-te{
                     height: 100%;
                     overflow: hidden;
                     .card{
-                        width: 200px;
+                        width: 174px;
+                        padding: 0;
                         background-color: #181818;
                         cursor: pointer;
                         .play-head-card{
@@ -263,6 +275,67 @@ html{
                             right: 10px;
                             top: calc(50% - 23px);
                             opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                .playlist-ascoltate-di-recente{
+                    height: 100%;
+                    overflow: hidden;
+                    .card{
+                        width: 174px;
+                        padding: 0;
+                        background-color: #181818;
+                        cursor: pointer;
+                        .play-head-card{
+                            width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                .playlist-stazioni-per-te{
+                    height: 100%;
+                    overflow: hidden;
+                    .card{
+                        width: 174px;
+                        padding: 0;
+                        background-color: #181818;
+                        cursor: pointer;
+                        .play-head-card{
+                            width: 45px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: rgb(0, 255, 0);
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 10px;
+                            top: calc(50% - 23px);
+                            opacity: 0;
+                        }
+                        .card-text{
+                            a{
+                                font-size: 12px;
+                            }
                         }
                     }
                 }

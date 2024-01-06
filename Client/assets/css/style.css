@@ -11874,10 +11874,9 @@ html {
 }
 html body {
   height: 100%;
-  font-size: 12px;
 }
 html body .sidebar-sx {
-  width: 500px;
+  width: 600px;
   height: 100%;
 }
 html body .sidebar-sx .siderbar-content {
@@ -11934,7 +11933,7 @@ html body .sidebar-sx .siderbar-content .sidebar-sx-libreria .libreria-bottoni .
 }
 html body .sidebar-sx .siderbar-content .sidebar-sx-libreria .tabella {
   color: #fff;
-  height: 450px;
+  height: 440px;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -11949,7 +11948,7 @@ html body .sidebar-sx .siderbar-content .sidebar-sx-libreria .tabella .bottone-s
   font-size: 0.8em;
 }
 html body .sidebar-sx .siderbar-content .sidebar-sx-libreria .tabella .album-table-left .album {
-  width: 350px;
+  width: 390px;
   padding: 10px;
   border-radius: 10px;
 }
@@ -11968,7 +11967,6 @@ html body .sidebar-sx .siderbar-content .sidebar-sx-libreria .tabella .album-tab
 html body .sidebar-sx .siderbar-content .sidebar-sx-libreria .tabella .album-table-left .album:hover {
   background-color: rgba(53, 53, 53, 0.2);
   cursor: pointer;
-  width: 100%;
 }
 html body .sidebar-sx .siderbar-content .sidebar-sx-libreria .tabella .data-aggiunta {
   font-size: 12px;
@@ -12067,6 +12065,19 @@ html body .main .album-container .album-caselle {
   border-radius: 5px;
   overflow: hidden;
 }
+html body .main .album-container .album-caselle .play-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
 html body .main .album-container .album-caselle .title {
   color: #fff;
   font-weight: bold;
@@ -12094,16 +12105,17 @@ html body .main .playlists .mostra-wrapper .show-all {
 html body .main .playlists .mostra-wrapper .show-all:hover {
   text-decoration: underline;
 }
-html body .main .playlists .playlist-cards-container {
+html body .main .playlists .playlist-create-per-te {
   height: 100%;
   overflow: hidden;
 }
-html body .main .playlists .playlist-cards-container .card {
-  width: 200px;
+html body .main .playlists .playlist-create-per-te .card {
+  width: 174px;
+  padding: 0;
   background-color: #181818;
   cursor: pointer;
 }
-html body .main .playlists .playlist-cards-container .card .play-head-card {
+html body .main .playlists .playlist-create-per-te .card .play-head-card {
   width: 45px;
   height: 45px;
   display: flex;
@@ -12115,6 +12127,61 @@ html body .main .playlists .playlist-cards-container .card .play-head-card {
   right: 10px;
   top: calc(50% - 23px);
   opacity: 0;
+}
+html body .main .playlists .playlist-create-per-te .card .card-text a {
+  font-size: 12px;
+}
+html body .main .playlists .playlist-ascoltate-di-recente {
+  height: 100%;
+  overflow: hidden;
+}
+html body .main .playlists .playlist-ascoltate-di-recente .card {
+  width: 174px;
+  padding: 0;
+  background-color: #181818;
+  cursor: pointer;
+}
+html body .main .playlists .playlist-ascoltate-di-recente .card .play-head-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
+html body .main .playlists .playlist-ascoltate-di-recente .card .card-text a {
+  font-size: 12px;
+}
+html body .main .playlists .playlist-stazioni-per-te {
+  height: 100%;
+  overflow: hidden;
+}
+html body .main .playlists .playlist-stazioni-per-te .card {
+  width: 174px;
+  padding: 0;
+  background-color: #181818;
+  cursor: pointer;
+}
+html body .main .playlists .playlist-stazioni-per-te .card .play-head-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 23px);
+  opacity: 0;
+}
+html body .main .playlists .playlist-stazioni-per-te .card .card-text a {
+  font-size: 12px;
 }
 html body .main::-webkit-scrollbar {
   width: 10px;

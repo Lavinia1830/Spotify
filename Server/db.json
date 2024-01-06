@@ -5869,6 +5869,414 @@
                     }
                 ]
             }
+        },
+        {
+            "id": 99999392,
+            "title": "Bandido",
+            "upc": "795935768650",
+            "link": "https://www.deezer.com/album/99999392",
+            "share": "https://www.deezer.com/album/99999392?utm_source=deezer&utm_content=album-99999392&utm_term=0_1704550715&utm_medium=web",
+            "cover": "https://api.deezer.com/album/99999392/image",
+            "cover_small": "https://e-cdns-images.dzcdn.net/images/cover/9f1cb1c208dd48b8f368d362df125aa7/56x56-000000-80-0-0.jpg",
+            "cover_medium": "https://e-cdns-images.dzcdn.net/images/cover/9f1cb1c208dd48b8f368d362df125aa7/250x250-000000-80-0-0.jpg",
+            "cover_big": "https://e-cdns-images.dzcdn.net/images/cover/9f1cb1c208dd48b8f368d362df125aa7/500x500-000000-80-0-0.jpg",
+            "cover_xl": "https://e-cdns-images.dzcdn.net/images/cover/9f1cb1c208dd48b8f368d362df125aa7/1000x1000-000000-80-0-0.jpg",
+            "md5_image": "9f1cb1c208dd48b8f368d362df125aa7",
+            "genre_id": 116,
+            "genres": {
+                "data": [
+                    {
+                        "id": 116,
+                        "name": "Rap/Hip Hop",
+                        "picture": "https://api.deezer.com/genre/116/image",
+                        "type": "genre"
+                    }
+                ]
+            },
+            "label": "Zonas",
+            "nb_tracks": 1,
+            "duration": 273,
+            "fans": 0,
+            "release_date": "2019-06-17",
+            "record_type": "single",
+            "available": true,
+            "tracklist": "https://api.deezer.com/album/99999392/tracks",
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "contributors": [
+                {
+                    "id": 12140002,
+                    "name": "Zonas",
+                    "link": "https://www.deezer.com/artist/12140002",
+                    "share": "https://www.deezer.com/artist/12140002?utm_source=deezer&utm_content=artist-12140002&utm_term=0_1704550715&utm_medium=web",
+                    "picture": "https://api.deezer.com/artist/12140002/image",
+                    "picture_small": "https://e-cdns-images.dzcdn.net/images/artist/cc3eeeab6bcf475852fee0edace34543/56x56-000000-80-0-0.jpg",
+                    "picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/cc3eeeab6bcf475852fee0edace34543/250x250-000000-80-0-0.jpg",
+                    "picture_big": "https://e-cdns-images.dzcdn.net/images/artist/cc3eeeab6bcf475852fee0edace34543/500x500-000000-80-0-0.jpg",
+                    "picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/cc3eeeab6bcf475852fee0edace34543/1000x1000-000000-80-0-0.jpg",
+                    "radio": true,
+                    "tracklist": "https://api.deezer.com/artist/12140002/top?limit=50",
+                    "type": "artist",
+                    "role": "Main"
+                }
+            ],
+            "artist": {
+                "id": 12140002,
+                "name": "Zonas",
+                "picture": "https://api.deezer.com/artist/12140002/image",
+                "picture_small": "https://e-cdns-images.dzcdn.net/images/artist/cc3eeeab6bcf475852fee0edace34543/56x56-000000-80-0-0.jpg",
+                "picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/cc3eeeab6bcf475852fee0edace34543/250x250-000000-80-0-0.jpg",
+                "picture_big": "https://e-cdns-images.dzcdn.net/images/artist/cc3eeeab6bcf475852fee0edace34543/500x500-000000-80-0-0.jpg",
+                "picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/cc3eeeab6bcf475852fee0edace34543/1000x1000-000000-80-0-0.jpg",
+                "tracklist": "https://api.deezer.com/artist/12140002/top?limit=50",
+                "type": "artist"
+            },
+            "type": "album",
+            "tracks": {
+                "data": [
+                    {
+                        "id": 694956072,
+                        "readable": true,
+                        "title": "Bandido",
+                        "title_short": "Bandido",
+                        "title_version": "",
+                        "link": "https://www.deezer.com/track/694956072",
+                        "duration": 273,
+                        "rank": 100000,
+                        "explicit_lyrics": true,
+                        "explicit_content_lyrics": 1,
+                        "explicit_content_cover": 2,
+                        "preview": "https://cdns-preview-2.dzcdn.net/stream/c-2822a42010dd3a3f3e79af45f7ba87f2-2.mp3",
+                        "md5_image": "9f1cb1c208dd48b8f368d362df125aa7",
+                        "artist": {
+                            "id": 12140002,
+                            "name": "Zonas",
+                            "tracklist": "https://api.deezer.com/artist/12140002/top?limit=50",
+                            "type": "artist"
+                        },
+                        "album": {
+                            "id": 99999392,
+                            "title": "Bandido",
+                            "cover": "https://api.deezer.com/album/99999392/image",
+                            "cover_small": "https://e-cdns-images.dzcdn.net/images/cover/9f1cb1c208dd48b8f368d362df125aa7/56x56-000000-80-0-0.jpg",
+                            "cover_medium": "https://e-cdns-images.dzcdn.net/images/cover/9f1cb1c208dd48b8f368d362df125aa7/250x250-000000-80-0-0.jpg",
+                            "cover_big": "https://e-cdns-images.dzcdn.net/images/cover/9f1cb1c208dd48b8f368d362df125aa7/500x500-000000-80-0-0.jpg",
+                            "cover_xl": "https://e-cdns-images.dzcdn.net/images/cover/9f1cb1c208dd48b8f368d362df125aa7/1000x1000-000000-80-0-0.jpg",
+                            "md5_image": "9f1cb1c208dd48b8f368d362df125aa7",
+                            "tracklist": "https://api.deezer.com/album/99999392/tracks",
+                            "type": "album"
+                        },
+                        "type": "track"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 99999382,
+            "title": "10:05",
+            "upc": "795935769015",
+            "link": "https://www.deezer.com/album/99999382",
+            "share": "https://www.deezer.com/album/99999382?utm_source=deezer&utm_content=album-99999382&utm_term=0_1704550787&utm_medium=web",
+            "cover": "https://api.deezer.com/album/99999382/image",
+            "cover_small": "https://e-cdns-images.dzcdn.net/images/cover/de355b7eae07b92915b7b68a37b7aa8b/56x56-000000-80-0-0.jpg",
+            "cover_medium": "https://e-cdns-images.dzcdn.net/images/cover/de355b7eae07b92915b7b68a37b7aa8b/250x250-000000-80-0-0.jpg",
+            "cover_big": "https://e-cdns-images.dzcdn.net/images/cover/de355b7eae07b92915b7b68a37b7aa8b/500x500-000000-80-0-0.jpg",
+            "cover_xl": "https://e-cdns-images.dzcdn.net/images/cover/de355b7eae07b92915b7b68a37b7aa8b/1000x1000-000000-80-0-0.jpg",
+            "md5_image": "de355b7eae07b92915b7b68a37b7aa8b",
+            "genre_id": 116,
+            "genres": {
+                "data": [
+                    {
+                        "id": 116,
+                        "name": "Rap/Hip Hop",
+                        "picture": "https://api.deezer.com/genre/116/image",
+                        "type": "genre"
+                    }
+                ]
+            },
+            "label": "Lilpez",
+            "nb_tracks": 1,
+            "duration": 235,
+            "fans": 0,
+            "release_date": "2019-06-06",
+            "record_type": "single",
+            "available": true,
+            "tracklist": "https://api.deezer.com/album/99999382/tracks",
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "contributors": [
+                {
+                    "id": 67429642,
+                    "name": "Lilpez",
+                    "link": "https://www.deezer.com/artist/67429642",
+                    "share": "https://www.deezer.com/artist/67429642?utm_source=deezer&utm_content=artist-67429642&utm_term=0_1704550787&utm_medium=web",
+                    "picture": "https://api.deezer.com/artist/67429642/image",
+                    "picture_small": "https://e-cdns-images.dzcdn.net/images/artist/3b0ce670385866bddeae750d5418795a/56x56-000000-80-0-0.jpg",
+                    "picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/3b0ce670385866bddeae750d5418795a/250x250-000000-80-0-0.jpg",
+                    "picture_big": "https://e-cdns-images.dzcdn.net/images/artist/3b0ce670385866bddeae750d5418795a/500x500-000000-80-0-0.jpg",
+                    "picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/3b0ce670385866bddeae750d5418795a/1000x1000-000000-80-0-0.jpg",
+                    "radio": true,
+                    "tracklist": "https://api.deezer.com/artist/67429642/top?limit=50",
+                    "type": "artist",
+                    "role": "Main"
+                }
+            ],
+            "artist": {
+                "id": 67429642,
+                "name": "Lilpez",
+                "picture": "https://api.deezer.com/artist/67429642/image",
+                "picture_small": "https://e-cdns-images.dzcdn.net/images/artist/3b0ce670385866bddeae750d5418795a/56x56-000000-80-0-0.jpg",
+                "picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/3b0ce670385866bddeae750d5418795a/250x250-000000-80-0-0.jpg",
+                "picture_big": "https://e-cdns-images.dzcdn.net/images/artist/3b0ce670385866bddeae750d5418795a/500x500-000000-80-0-0.jpg",
+                "picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/3b0ce670385866bddeae750d5418795a/1000x1000-000000-80-0-0.jpg",
+                "tracklist": "https://api.deezer.com/artist/67429642/top?limit=50",
+                "type": "artist"
+            },
+            "type": "album",
+            "tracks": {
+                "data": [
+                    {
+                        "id": 694956062,
+                        "readable": true,
+                        "title": "10:05",
+                        "title_short": "10:05",
+                        "title_version": "",
+                        "link": "https://www.deezer.com/track/694956062",
+                        "duration": 235,
+                        "rank": 10345,
+                        "explicit_lyrics": true,
+                        "explicit_content_lyrics": 1,
+                        "explicit_content_cover": 2,
+                        "preview": "https://cdns-preview-a.dzcdn.net/stream/c-a4d665b5cb8c37460cb3ad1b29d8e92e-2.mp3",
+                        "md5_image": "de355b7eae07b92915b7b68a37b7aa8b",
+                        "artist": {
+                            "id": 67429642,
+                            "name": "Lilpez",
+                            "tracklist": "https://api.deezer.com/artist/67429642/top?limit=50",
+                            "type": "artist"
+                        },
+                        "album": {
+                            "id": 99999382,
+                            "title": "10:05",
+                            "cover": "https://api.deezer.com/album/99999382/image",
+                            "cover_small": "https://e-cdns-images.dzcdn.net/images/cover/de355b7eae07b92915b7b68a37b7aa8b/56x56-000000-80-0-0.jpg",
+                            "cover_medium": "https://e-cdns-images.dzcdn.net/images/cover/de355b7eae07b92915b7b68a37b7aa8b/250x250-000000-80-0-0.jpg",
+                            "cover_big": "https://e-cdns-images.dzcdn.net/images/cover/de355b7eae07b92915b7b68a37b7aa8b/500x500-000000-80-0-0.jpg",
+                            "cover_xl": "https://e-cdns-images.dzcdn.net/images/cover/de355b7eae07b92915b7b68a37b7aa8b/1000x1000-000000-80-0-0.jpg",
+                            "md5_image": "de355b7eae07b92915b7b68a37b7aa8b",
+                            "tracklist": "https://api.deezer.com/album/99999382/tracks",
+                            "type": "album"
+                        },
+                        "type": "track"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 99999372,
+            "title": "Vai na Fé",
+            "upc": "795935768919",
+            "link": "https://www.deezer.com/album/99999372",
+            "share": "https://www.deezer.com/album/99999372?utm_source=deezer&utm_content=album-99999372&utm_term=0_1704550821&utm_medium=web",
+            "cover": "https://api.deezer.com/album/99999372/image",
+            "cover_small": "https://e-cdns-images.dzcdn.net/images/cover/0051511580e8a0097cc2ecfd461389d0/56x56-000000-80-0-0.jpg",
+            "cover_medium": "https://e-cdns-images.dzcdn.net/images/cover/0051511580e8a0097cc2ecfd461389d0/250x250-000000-80-0-0.jpg",
+            "cover_big": "https://e-cdns-images.dzcdn.net/images/cover/0051511580e8a0097cc2ecfd461389d0/500x500-000000-80-0-0.jpg",
+            "cover_xl": "https://e-cdns-images.dzcdn.net/images/cover/0051511580e8a0097cc2ecfd461389d0/1000x1000-000000-80-0-0.jpg",
+            "md5_image": "0051511580e8a0097cc2ecfd461389d0",
+            "genre_id": 116,
+            "genres": {
+                "data": [
+                    {
+                        "id": 116,
+                        "name": "Rap/Hip Hop",
+                        "picture": "https://api.deezer.com/genre/116/image",
+                        "type": "genre"
+                    }
+                ]
+            },
+            "label": "Rei Dizaprosa",
+            "nb_tracks": 1,
+            "duration": 297,
+            "fans": 0,
+            "release_date": "2019-06-08",
+            "record_type": "single",
+            "available": true,
+            "tracklist": "https://api.deezer.com/album/99999372/tracks",
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "contributors": [
+                {
+                    "id": 67429632,
+                    "name": "Rei Dizaprosa",
+                    "link": "https://www.deezer.com/artist/67429632",
+                    "share": "https://www.deezer.com/artist/67429632?utm_source=deezer&utm_content=artist-67429632&utm_term=0_1704550821&utm_medium=web",
+                    "picture": "https://api.deezer.com/artist/67429632/image",
+                    "picture_small": "https://e-cdns-images.dzcdn.net/images/artist/0051511580e8a0097cc2ecfd461389d0/56x56-000000-80-0-0.jpg",
+                    "picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/0051511580e8a0097cc2ecfd461389d0/250x250-000000-80-0-0.jpg",
+                    "picture_big": "https://e-cdns-images.dzcdn.net/images/artist/0051511580e8a0097cc2ecfd461389d0/500x500-000000-80-0-0.jpg",
+                    "picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/0051511580e8a0097cc2ecfd461389d0/1000x1000-000000-80-0-0.jpg",
+                    "radio": true,
+                    "tracklist": "https://api.deezer.com/artist/67429632/top?limit=50",
+                    "type": "artist",
+                    "role": "Main"
+                }
+            ],
+            "artist": {
+                "id": 67429632,
+                "name": "Rei Dizaprosa",
+                "picture": "https://api.deezer.com/artist/67429632/image",
+                "picture_small": "https://e-cdns-images.dzcdn.net/images/artist/0051511580e8a0097cc2ecfd461389d0/56x56-000000-80-0-0.jpg",
+                "picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/0051511580e8a0097cc2ecfd461389d0/250x250-000000-80-0-0.jpg",
+                "picture_big": "https://e-cdns-images.dzcdn.net/images/artist/0051511580e8a0097cc2ecfd461389d0/500x500-000000-80-0-0.jpg",
+                "picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/0051511580e8a0097cc2ecfd461389d0/1000x1000-000000-80-0-0.jpg",
+                "tracklist": "https://api.deezer.com/artist/67429632/top?limit=50",
+                "type": "artist"
+            },
+            "type": "album",
+            "tracks": {
+                "data": [
+                    {
+                        "id": 694956052,
+                        "readable": true,
+                        "title": "Vai na Fé",
+                        "title_short": "Vai na Fé",
+                        "title_version": "",
+                        "link": "https://www.deezer.com/track/694956052",
+                        "duration": 297,
+                        "rank": 631,
+                        "explicit_lyrics": true,
+                        "explicit_content_lyrics": 1,
+                        "explicit_content_cover": 2,
+                        "preview": "https://cdns-preview-d.dzcdn.net/stream/c-df2498823e149e5f1f00115056139a2d-3.mp3",
+                        "md5_image": "0051511580e8a0097cc2ecfd461389d0",
+                        "artist": {
+                            "id": 67429632,
+                            "name": "Rei Dizaprosa",
+                            "tracklist": "https://api.deezer.com/artist/67429632/top?limit=50",
+                            "type": "artist"
+                        },
+                        "album": {
+                            "id": 99999372,
+                            "title": "Vai na Fé",
+                            "cover": "https://api.deezer.com/album/99999372/image",
+                            "cover_small": "https://e-cdns-images.dzcdn.net/images/cover/0051511580e8a0097cc2ecfd461389d0/56x56-000000-80-0-0.jpg",
+                            "cover_medium": "https://e-cdns-images.dzcdn.net/images/cover/0051511580e8a0097cc2ecfd461389d0/250x250-000000-80-0-0.jpg",
+                            "cover_big": "https://e-cdns-images.dzcdn.net/images/cover/0051511580e8a0097cc2ecfd461389d0/500x500-000000-80-0-0.jpg",
+                            "cover_xl": "https://e-cdns-images.dzcdn.net/images/cover/0051511580e8a0097cc2ecfd461389d0/1000x1000-000000-80-0-0.jpg",
+                            "md5_image": "0051511580e8a0097cc2ecfd461389d0",
+                            "tracklist": "https://api.deezer.com/album/99999372/tracks",
+                            "type": "album"
+                        },
+                        "type": "track"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 99999362,
+            "title": "Amor de Judas",
+            "upc": "795935766151",
+            "link": "https://www.deezer.com/album/99999362",
+            "share": "https://www.deezer.com/album/99999362?utm_source=deezer&utm_content=album-99999362&utm_term=0_1704550850&utm_medium=web",
+            "cover": "https://api.deezer.com/album/99999362/image",
+            "cover_small": "https://e-cdns-images.dzcdn.net/images/cover/a5a0080a0e37d335fc2f12e21d7c6dea/56x56-000000-80-0-0.jpg",
+            "cover_medium": "https://e-cdns-images.dzcdn.net/images/cover/a5a0080a0e37d335fc2f12e21d7c6dea/250x250-000000-80-0-0.jpg",
+            "cover_big": "https://e-cdns-images.dzcdn.net/images/cover/a5a0080a0e37d335fc2f12e21d7c6dea/500x500-000000-80-0-0.jpg",
+            "cover_xl": "https://e-cdns-images.dzcdn.net/images/cover/a5a0080a0e37d335fc2f12e21d7c6dea/1000x1000-000000-80-0-0.jpg",
+            "md5_image": "a5a0080a0e37d335fc2f12e21d7c6dea",
+            "genre_id": 116,
+            "genres": {
+                "data": [
+                    {
+                        "id": 116,
+                        "name": "Rap/Hip Hop",
+                        "picture": "https://api.deezer.com/genre/116/image",
+                        "type": "genre"
+                    }
+                ]
+            },
+            "label": "cronicas 22 oficial",
+            "nb_tracks": 1,
+            "duration": 153,
+            "fans": 1,
+            "release_date": "2019-06-10",
+            "record_type": "single",
+            "available": true,
+            "tracklist": "https://api.deezer.com/album/99999362/tracks",
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "contributors": [
+                {
+                    "id": 67429612,
+                    "name": "Crônicas 22",
+                    "link": "https://www.deezer.com/artist/67429612",
+                    "share": "https://www.deezer.com/artist/67429612?utm_source=deezer&utm_content=artist-67429612&utm_term=0_1704550850&utm_medium=web",
+                    "picture": "https://api.deezer.com/artist/67429612/image",
+                    "picture_small": "https://e-cdns-images.dzcdn.net/images/artist/9735dcd337e49e11b56c9997c880fa36/56x56-000000-80-0-0.jpg",
+                    "picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/9735dcd337e49e11b56c9997c880fa36/250x250-000000-80-0-0.jpg",
+                    "picture_big": "https://e-cdns-images.dzcdn.net/images/artist/9735dcd337e49e11b56c9997c880fa36/500x500-000000-80-0-0.jpg",
+                    "picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/9735dcd337e49e11b56c9997c880fa36/1000x1000-000000-80-0-0.jpg",
+                    "radio": true,
+                    "tracklist": "https://api.deezer.com/artist/67429612/top?limit=50",
+                    "type": "artist",
+                    "role": "Main"
+                }
+            ],
+            "artist": {
+                "id": 67429612,
+                "name": "Crônicas 22",
+                "picture": "https://api.deezer.com/artist/67429612/image",
+                "picture_small": "https://e-cdns-images.dzcdn.net/images/artist/9735dcd337e49e11b56c9997c880fa36/56x56-000000-80-0-0.jpg",
+                "picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/9735dcd337e49e11b56c9997c880fa36/250x250-000000-80-0-0.jpg",
+                "picture_big": "https://e-cdns-images.dzcdn.net/images/artist/9735dcd337e49e11b56c9997c880fa36/500x500-000000-80-0-0.jpg",
+                "picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/9735dcd337e49e11b56c9997c880fa36/1000x1000-000000-80-0-0.jpg",
+                "tracklist": "https://api.deezer.com/artist/67429612/top?limit=50",
+                "type": "artist"
+            },
+            "type": "album",
+            "tracks": {
+                "data": [
+                    {
+                        "id": 694956042,
+                        "readable": true,
+                        "title": "Amor de Judas",
+                        "title_short": "Amor de Judas",
+                        "title_version": "",
+                        "link": "https://www.deezer.com/track/694956042",
+                        "duration": 153,
+                        "rank": 21665,
+                        "explicit_lyrics": false,
+                        "explicit_content_lyrics": 0,
+                        "explicit_content_cover": 2,
+                        "preview": "https://cdns-preview-3.dzcdn.net/stream/c-38a61916200b7485f0dd5cffe93c44fc-2.mp3",
+                        "md5_image": "a5a0080a0e37d335fc2f12e21d7c6dea",
+                        "artist": {
+                            "id": 67429612,
+                            "name": "Crônicas 22",
+                            "tracklist": "https://api.deezer.com/artist/67429612/top?limit=50",
+                            "type": "artist"
+                        },
+                        "album": {
+                            "id": 99999362,
+                            "title": "Amor de Judas",
+                            "cover": "https://api.deezer.com/album/99999362/image",
+                            "cover_small": "https://e-cdns-images.dzcdn.net/images/cover/a5a0080a0e37d335fc2f12e21d7c6dea/56x56-000000-80-0-0.jpg",
+                            "cover_medium": "https://e-cdns-images.dzcdn.net/images/cover/a5a0080a0e37d335fc2f12e21d7c6dea/250x250-000000-80-0-0.jpg",
+                            "cover_big": "https://e-cdns-images.dzcdn.net/images/cover/a5a0080a0e37d335fc2f12e21d7c6dea/500x500-000000-80-0-0.jpg",
+                            "cover_xl": "https://e-cdns-images.dzcdn.net/images/cover/a5a0080a0e37d335fc2f12e21d7c6dea/1000x1000-000000-80-0-0.jpg",
+                            "md5_image": "a5a0080a0e37d335fc2f12e21d7c6dea",
+                            "tracklist": "https://api.deezer.com/album/99999362/tracks",
+                            "type": "album"
+                        },
+                        "type": "track"
+                    }
+                ]
+            }
         }
     ],
     "artist":[
