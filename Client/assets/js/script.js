@@ -1,5 +1,5 @@
 let xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://striveschool-api.herokuapp.com/api/deezer/album/99999362');
+xhr.open('GET', 'https://striveschool-api.herokuapp.com/api/deezer/artist/150');
 xhr.send();
 
 xhr.onreadystatechange = function(){
@@ -750,3 +750,12 @@ function cardsAnimation() {
 
 cardsAnimation();
 
+/* const searchURL = "https://striveschool-api.herokuapp.com/api/deezer/search?q=";
+let query = "Axwell";
+search(query);
+
+async function search(query) {
+  const response = await fetch(`${searchURL}/${query}`);
+  const data = await response.json();
+  console.log(data);
+} */
